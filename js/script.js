@@ -1,0 +1,12 @@
+let d=new Date();
+let birthday=new Date(2000,1,7);
+console.log(d);
+console.log( typeof d);
+console.log(d.getDate());
+console.log(d.getDay);
+console.log(d.getFullYear());
+console.log(d.getMonth());
+//console.log(d.getSeconds());
+console.log(d.getFullYear() - birthday.getFullYear());
+console.log(d.getMonth() - birthday.getMonth());
+console.log(d.getDate() - birthday.getDay());
